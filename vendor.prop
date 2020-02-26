@@ -94,6 +94,9 @@ ro.hardware.egl=adreno
 # DRM
 drm.service.enabled=true
 
+# Fastbootd
+ro.fastbootd.available=true
+
 # FM
 ro.vendor.builtin_fm_antenna_support=1
 
