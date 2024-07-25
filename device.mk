@@ -394,6 +394,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Scudo
+PRODUCT_USE_SCUDO := true
+PRODUCT_USE_SCUDO_32_BIT := true
+
 # Telephony
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.5.vendor \
