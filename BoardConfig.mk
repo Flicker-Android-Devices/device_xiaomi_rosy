@@ -179,7 +179,7 @@ TARGET_ENFORCES_QSSI := true
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/recovery_fstab.qcom
 
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2024-04-05
